@@ -7,6 +7,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/auth")
+@CrossOrigin(origins = "https://nisha-collection.vercel.app")
 public class AuthController {
 
     @Value("${app.admin.username:admin}")
@@ -14,7 +15,10 @@ public class AuthController {
 
     @Value("${app.admin.password:nisha@123}")
     private String adminPassword;
-
+@RequestMapping(value = "/login", method = RequestMethod.OPTIONS)
+public ResponseEntity<?> options() {
+    return ResponseEntity.ok().build();
+}
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody Map<String, String> body) {
         String username = body.getOrDefault("username", "");
