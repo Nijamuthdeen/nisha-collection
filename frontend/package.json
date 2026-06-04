@@ -2,11 +2,12 @@
   "name": "nisha-collection-frontend",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "node ./node_modules/vite/bin/vite.js build",
-  "preview": "vite preview"
-},
+    "dev": "vite",
+    "build": "node ./node_modules/vite/bin/vite.js build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -15,6 +15,7 @@ C:\Users\NIJAM\OneDrive\Documents\nisha-collection\backend\src\main\java\com\nis
 C:\Users\NIJAM\OneDrive\Documents\nisha-collection\backend\src\main\java\com\nishacollection\controller\InvoiceController.java
 C:\Users\NIJAM\OneDrive\Documents\nisha-collection\backend\src\main\java\com\nishacollection\exception\GlobalExceptionHandler.java
 C:\Users\NIJAM\OneDrive\Documents\nisha-collection\backend\src\main\java\com\nishacollection\exception\ResourceNotFoundException.java
+C:\Users\NIJAM\OneDrive\Documents\nisha-collection\backend\src\main\java\com\nishacollection\config\WebConfig.java
 C:\Users\NIJAM\OneDrive\Documents\nisha-collection\backend\src\main\java\com\nishacollection\service\InvoiceService.java
 C:\Users\NIJAM\OneDrive\Documents\nisha-collection\backend\src\main\java\com\nishacollection\dto\InvoiceRequest.java
 C:\Users\NIJAM\OneDrive\Documents\nisha-collection\backend\src\main\java\com\nishacollection\service\DashboardService.java

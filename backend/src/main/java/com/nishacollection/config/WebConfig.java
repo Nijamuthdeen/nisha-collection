@@ -11,7 +11,10 @@ public class WebConfig {
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
-        config.addAllowedOrigin("https://nisha-collection.vercel.app");
+
+        config.addAllowedOrigin("http://localhost:5173"); // Local React
+        config.addAllowedOrigin("https://nisha-collection.vercel.app"); // Vercel
+
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
         config.setAllowCredentials(true);
